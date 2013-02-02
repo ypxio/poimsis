@@ -20,6 +20,12 @@
 				<li><a href=""><i class="icon-cogs"></i> Kelola Informasi</a></li>
 				<!-- <li><a href="">File</a></li> -->
 			</ul>
+
+			<ul id="top" class="right">
+				<li><a href="" class="active"><i class="icon-user"></i> Selamat Datang Admin ! (192.168.1.1)</a></li>
+				<li><a href="" class="active">Logout</a></li>
+				<!-- <li><a href="">File</a></li> -->
+			</ul>
 	</div>
 
 	<div id="logo">
@@ -49,9 +55,11 @@
 <div id="content">
 	<div id="sidebar">
 		<ul>
-			<li><a href="" class="active first"><i class="icon-folder-close"></i> Persiapan</a></li>
-			<li><a href=""><i class="icon-folder-close"></i> Pendataan Objek Pajak</a></li>
-			<li><a href=""><i class="icon-folder-close"></i> Pelaporan</a></li>
+			<li><a href="" class="active first"><i class="icon-folder-close"></i> Sub Menu 1</a></li>
+			<li><a href=""><i class="icon-folder-close"></i> Sub Menu 2</a></li>
+			<li><a href=""><i class="icon-folder-close"></i> Sub Menu 3</a></li>
+			<li><a href=""><i class="icon-folder-close"></i> Sub Menu 4</a></li>
+			<li><a href=""><i class="icon-folder-close"></i> Sub Menu 5</a></li>
 		</ul>
 	</div> <!-- div#sidebar -->
 
