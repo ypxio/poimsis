@@ -65,7 +65,7 @@
 			<li><a href="" class="first"><i class="icon-folder-close"></i> Sub Menu 1</a></li>
 			<li><a href=""><i class="icon-folder-close"></i> Sub Menu 2</a></li>
 			<li><a href=""><i class="icon-folder-close"></i> Sub Menu 3</a></li>
-			<li><a href=""><i class="icon-folder-close"></i> Sub Menu 4</a></li>
+			<!-- <li><a href=""><i class="icon-folder-close"></i> Sub Menu 4</a></li> -->
 
 		</ul>
 	</div> <!-- div#sidebar -->
