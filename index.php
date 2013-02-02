@@ -66,6 +66,7 @@
 
 <div id="footer">
 <!-- asdas -->
+<span>Copyright &copy; 2013. Cendana Teknika Utama</span>
 </div> <!-- div#footer -->
 
 </div> <!-- div#container -->
