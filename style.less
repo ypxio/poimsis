@@ -16,7 +16,7 @@
 		     url('entypo/entypo.eot'); /* IE9 */
 	}
 
-	@dark_blue 		: #0089e1;
+	@dark_blue 		: #35a1d6;
 	@dark_blue_5 		: darken(@dark_blue, 5%);
 	@dark_blue_10 		: darken(@dark_blue, 10%);
 	@dark_blue_15 		: darken(@dark_blue, 15%);
@@ -46,18 +46,18 @@
 
 	#header
 	{
-		height: 140px;
+		height: 106px;
 		width: 100%;
 		background-color: @dark_blue;
 		position: relative;
-		border-bottom: 1px solid #ddd;
+		border-bottom: 1px solid @dark_blue_5;
 
 		ul#bottom
 		{
 			position: absolute;
 			bottom: 10;
 			right: 0;
-			margin-right: 10px;
+			margin-right: 20px;
 			// background-color: black;
 			padding: 0;
 			li
@@ -71,27 +71,37 @@
 					text-decoration: none;
 					font-size: 14px;
 					padding: 10px 15px 10px 15px;
-					border: 1px solid @dark_blue;
+					// border: 1px solid @dark_blue;
 					color: @dark_blue_10;
 					border-bottom: none;
+					border-right: 1px solid @dark_blue_10;
+					border-left: 1px solid @dark_blue_10_r;
+					margin: -2;
+					color: white;
+					text-shadow: 0px 1px 1px @dark_blue_25;
+					-moz-transition: all 0.2s linear;
+					-webkit-transition: all 0.2s linear;
+					-o-transition: all 0.2s linear;
+					transition: all 0.2s linear;
 					// font-family: entypo;
+					box-shadow: inset 0 -5px 4px -5px @dark_blue_15, inset 0 5px 4px -5px @dark_blue_15_r;
 					
 				}
 
 				a:hover
 				{
-					border-top: 1px solid @dark_blue_15;
-					border-right: 1px solid @dark_blue_15;
-					border-left: 1px solid @dark_blue_15;
-					background-color: @dark_blue_15;
-					color: @dark_blue_15_r;
+						
+					background-color: @dark_blue_10_r;
+					// color: @dark_blue_15_r;
 				}
 
 				a.active
 				{
-					border-bottom: 1px solid white;
-					background-color: white;
-					color: @dark_blue_10;
+					// border-bottom: 1px solid white;
+					// background-color: white;
+					
+					background-color: @dark_blue_5;
+					box-shadow: inset 0px 5px 10px @dark_blue_10;
 				}
 			}
 		}
@@ -106,12 +116,39 @@
 			margin-left: 10px;
 			position: relative;
 
+			h3
+			{
+				// background-color: blue;
+				display: inline;
+				color: #fff;
+				margin-left: 110px;
+				text-shadow: 1px 1px 1px #555;
+			}
+
+			
+		}
+
+		#global
+		{
+			height: auto;
+			width: 100%;
+			background-color: @dark_blue_15;
+			color: white;
+			padding: 10px 0px;
+			position: relative;
+			height: 50px;
+			// border-bottom: 1px solid @dark_blue_10;
+			box-shadow: 0px 1px 0px @dark_blue;
+			// height: 40px;
+
+			
 			img
 			{
-				// position: absolute;
+				position: absolute;
 				// top:55;
-				// left:100;
-				width: 50px;
+				left: 10;
+				top: 0;
+				width: 100px;
 				margin: 0 auto;
 				margin-top: 5px;
 				// display: block;
@@ -123,46 +160,38 @@
 				// display: block;
 				margin: 0 auto;
 				position: absolute;
-				top: 5;
-				left: 60px;
-				font-size: 30px;
+				top: 10;
+				left: 120px;
+				font-size: 25px;
 				color: white;
-				// font-weight: bold;
+				// text-shadow: inset 1px 1px 2px black;
+				font-weight: bold;
 				// top:170;
 				// left:50;
 				// font-size: 30px;
 				text-align: left;
 			}
-		}
-
-		#global
-		{
-			height: auto;
-			width: 100%;
-			background-color: @dark_blue_15;
-			color: white;
-			padding: 10px 0px;
-			// border-bottom: 1px solid @dark_blue_10;
-			box-shadow: 0px 1px 0px @dark_blue;
-			// height: 40px;
-
-			h3
-			{
-				// background-color: blue;
-				display: inline;
-				color: #fff;
-				margin-left: 10px;
-				text-shadow: 1px 1px 1px #555;
-			}
-
 		
-				ul#top
+				ul#topmenu, #topuser
 				{
 					display: inline;
 					// background-color: red;
 					
 					padding: 0;
 					margin-left: 20px;
+
+					&#topuser
+					{
+						position: absolute;
+						right: 10;
+						top: 15;
+					}
+					&#topmenu
+					{
+						position: absolute;
+						right: 10;
+						top: 35;
+					}
 
 					li
 					{
@@ -176,11 +205,14 @@
 							color: @dark_blue_5_r;
 							color: @dark_blue_25;
 							text-shadow: 0px 1px 1px @dark_blue_5;
+							color: white;
+								text-shadow: 0px 1px 1px @dark_blue_25;
 
 							&:hover, &.active
 							{
 								color: white;
 								text-shadow: 0px 1px 1px @dark_blue_25;
+								text-decoration: underline;
 							}
 
 						}
@@ -203,16 +235,21 @@
 		// position: absolute;
 		// left: 0;
 		float: left;
-		height: 400px;
+		height: auto;
 		border-right: 1px solid #ddd;
 		// box-shadow
 		// background-color: green;
 		
 		width: 15%;
+		padding-top: 45px;
+		padding-bottom: 21px;
 
 		ul
 		{
-			margin-top: 51px;
+			// width: 90%;
+			// display: block;
+			// margin: 0 auto;
+
 			li
 			{
 				a
@@ -220,10 +257,16 @@
 					// background-color: #ccc;
 					display: block;
 					text-decoration: none;
-					color: #aaa;
+					color: #444;
+					font-weight: bold;
 					font-size: 12px;
 					padding: 10px 10px 10px 10px;
 					border-bottom: 1px solid #eee;
+
+					-moz-transition: all 0.2s linear;
+					-webkit-transition: all 0.2s linear;
+					-o-transition: all 0.2s linear;
+					transition: all 0.2s linear;
 				}
 
 				a.first
@@ -231,17 +274,35 @@
 					border-top: 1px solid #eee;
 				}
 
+				a.head
+				{
+					background-color: #eee;
+					padding-left: 10px;
+					color: #888;
+					margin-bottom: 10px;
+					margin-top: 10px;
+
+					border-top: 1px solid #ddd;
+					border-bottom: 1px solid #ddd;
+					
+
+					&:hover
+					{
+						background-color: #ddd;
+					}
+				}
+
 				a:hover
 				{
 					background-color: #eee;
-					color: @dark_blue_10;
+					// color: @dark_blue_25;
 				}
 
 				a.active
 				{
 					color: white;
 					background-color: @dark_blue;
-					color: white;
+					// color: @dark_blue_10;
 				}
 
 				
@@ -270,8 +331,11 @@
 			{
 				display: block;
 				// color: red;
+				font-weight: bold;
 				border-bottom: 1px solid #ddd;
 				padding-bottom: 15px;
+				font-size: 20px;
+				color: @dark_blue_15;
 			}
 		
 	}
@@ -279,7 +343,7 @@
 	#footer
 	{
 		background-color: @dark_blue_15;
-		border-top: 1px solid #ddd;
+		border-top: 5px solid @dark_blue;
 		border-bottom: : 1px solid #ddd;
 		height: 50px;
 
@@ -290,8 +354,8 @@
 			text-align: center;
 			font-size: 12px;
 			margin-top: 20px;
-			color: @dark_blue_25;
-			text-shadow: 0px 1px 1px @dark_blue_5;
+			color: white;
+			text-shadow: 0px 1px 0px @dark_blue_25;
 		}
 	}
 	// #sidebar

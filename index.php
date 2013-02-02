@@ -12,32 +12,31 @@
 
 <div id="header">
 	<div id="global">
-		<h3>Sistem Informasi Manajemen Objek Pajak</h3>
-			<ul id="top">
-				<li><a href=""><i class="icon-file"></i> File</a></li>
+		<img src="logo.png"/>
+		<div class="name">
+			Dinas Pendapatan Daerah
+			<br>
+			Riau - Rokan Hilir
+		</div>
+			<ul id="topmenu" class="right">
+				<li><a href=""><i class="icon-file"> </i>File</a></li>
 				<li><a href=""><i class="icon-eye-open"></i> Lihat</a></li>
 				<li><a href=""><i class="icon-hdd"></i> Referensi</a></li>
 				<li><a href=""><i class="icon-cogs"></i> Kelola Informasi</a></li>
 				<!-- <li><a href="">File</a></li> -->
 			</ul>
 
-			<ul id="top" class="right">
-				<li><a href="" class="active"><i class="icon-user"></i> Selamat Datang Admin ! (192.168.1.1)</a></li>
-				<li><a href="" class="active">Logout</a></li>
+			<ul id="topuser" class="right">
+				<li><a href=""><i class="icon-user"></i> Selamat Datang Admin ! (192.168.1.1)</a></li>
+				<li><a href=""><i class="icon-off"></i> Logout</a></li>
 				<!-- <li><a href="">File</a></li> -->
 			</ul>
 	</div>
 
 	<div id="logo">
-		<img src="logo.png"/>
 		<!-- <h3 class="name"> -->
-		<div class="name">
-			<!-- <b> -->
-			Dinas Pendapatan Daerah
-			<!-- </b> -->
-			<br>
-			Riau - Rokan Hilir
-		</div>
+		<h3>Sistem Informasi Manajemen Objek Pajak</h3>
+		
 	</div>
 
 	<ul id="bottom">
@@ -55,17 +54,25 @@
 <div id="content">
 	<div id="sidebar">
 		<ul>
-			<li><a href="" class="active first"><i class="icon-folder-close"></i> Sub Menu 1</a></li>
+			<li><a href="" class="head">Head Menu</a></li>
+			<li><a href="" class="active first"><i class="icon-folder-close"></i> Active Menu</a></li>
 			<li><a href=""><i class="icon-folder-close"></i> Sub Menu 2</a></li>
 			<li><a href=""><i class="icon-folder-close"></i> Sub Menu 3</a></li>
 			<li><a href=""><i class="icon-folder-close"></i> Sub Menu 4</a></li>
 			<li><a href=""><i class="icon-folder-close"></i> Sub Menu 5</a></li>
+
+			<li><a href="" class="head">Head Menu</a></li>
+			<li><a href="" class="first"><i class="icon-folder-close"></i> Sub Menu 1</a></li>
+			<li><a href=""><i class="icon-folder-close"></i> Sub Menu 2</a></li>
+			<li><a href=""><i class="icon-folder-close"></i> Sub Menu 3</a></li>
+			<li><a href=""><i class="icon-folder-close"></i> Sub Menu 4</a></li>
+
 		</ul>
 	</div> <!-- div#sidebar -->
 
 	<div id="mainbar">
 		<div id="inner">
-			<h3><i class="icon-home"></i> Lorem Ipsum Dolor Sit Amet</h3>
+			<h3>Lorem Ipsum Dolor Sit Amet</h3>
 		</div>
 	</div> <!-- div#content -->
 	<div class="clear"></div>
