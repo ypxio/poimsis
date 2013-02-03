@@ -19,15 +19,15 @@
 			Riau - Rokan Hilir
 		</div>
 			<ul id="topmenu" class="right">
-				<li><a href=""><i class="icon-file"> </i>File</a></li>
-				<li><a href=""><i class="icon-eye-open"></i> Lihat</a></li>
-				<li><a href=""><i class="icon-hdd"></i> Referensi</a></li>
-				<li><a href=""><i class="icon-cogs"></i> Kelola Informasi</a></li>
+				<li><a href=""><i class="icon-file"></i>&nbsp;&nbsp;&nbsp;File</a></li>
+				<li><a href=""><i class="icon-eye-open"></i>&nbsp;&nbsp;&nbsp;Lihat</a></li>
+				<li><a href=""><i class="icon-hdd"></i>&nbsp;&nbsp;&nbsp;Referensi</a></li>
+				<li><a href=""><i class="icon-cogs"></i>&nbsp;&nbsp;&nbsp;Kelola Informasi</a></li>
 				<!-- <li><a href="">File</a></li> -->
 			</ul>
 
 			<ul id="topuser" class="right">
-				<li><a href=""><i class="icon-user"></i> Selamat Datang Admin ! (192.168.1.1)</a></li>
+				<li><a href=""><i class="icon-user"></i> Selamat Datang Admin ! IP Anda 192.168.1.1</a></li>
 				<li><a href=""><i class="icon-off"></i> Logout</a></li>
 				<!-- <li><a href="">File</a></li> -->
 			</ul>
@@ -54,17 +54,32 @@
 <div id="content">
 	<div id="sidebar">
 		<ul>
-			<li><a href="" class="head">Head Menu</a></li>
-			<li><a href="" class="active first"><i class="icon-folder-close"></i> Active Menu</a></li>
-			<li><a href=""><i class="icon-folder-close"></i> Sub Menu 2</a></li>
-			<li><a href=""><i class="icon-folder-close"></i> Sub Menu 3</a></li>
-			<li><a href=""><i class="icon-folder-close"></i> Sub Menu 4</a></li>
-			<li><a href=""><i class="icon-folder-close"></i> Sub Menu 5</a></li>
+			<li><a href="" class="active first"><i class="icon-folder-close"></i> Parameter Keluaran<span class="triangle"></span></a></li>
+			<li><a href=""><i class="icon-folder-close"></i> Input Permohonan</a></li>
+			<li><a href=""><i class="icon-folder-close"></i> Cetak Tanda Terima</a></li>
+			<li><a href=""><i class="icon-folder-close"></i> Administrasi OP Baru dan Mutasi</a></li>
+			<li><a href=""><i class="icon-folder-close"></i> Cetak File Keluaran</a></li>
+			<li><a href=""><i class="icon-folder-close"></i> Penyerahan Berkas Pelayanan Selesai Ke WP</a></li>
 
-			<li><a href="" class="head">Head Menu</a></li>
-			<li><a href="" class="first"><i class="icon-folder-close"></i> Sub Menu 1</a></li>
-			<li><a href=""><i class="icon-folder-close"></i> Sub Menu 2</a></li>
-			<li><a href=""><i class="icon-folder-close"></i> Sub Menu 3</a></li>
+			<li><a href="" class="head">Pengurangan</a></li>
+			<li><a href="" class="first"><i class="icon-folder-close"></i> Input Data Pengurangan PBB</a></li>
+			<li><a href=""><i class="icon-folder-close"></i> Cetak SK Pengurangan PBB</a></li>
+
+			<li><a href="" class="head">Keberatan</a></li>
+			<li><a href="" class="first"><i class="icon-folder-close"></i> Input Surat Keputusan Atas Keberatan PBB</a></li>
+			<li><a href=""><i class="icon-folder-close"></i> Mencetak SK Keberatan PBB</a></li>
+
+			<li><a href="" class="head">Pembetulan SPPT/SKP</a></li>
+			<li><a href="" class="first"><i class="icon-folder-close"></i> Input SK Tunggal</a></li>
+			<li><a href=""><i class="icon-folder-close"></i> Proses SK Tunggal</a></li>
+			<li><a href=""><i class="icon-folder-close"></i> Input SK Kolektif</a></li>
+			<li><a href=""><i class="icon-folder-close"></i> Proses SK Kolektif</a></li>
+
+			<li><a href="" class="head">Pembatalan SPPT/SKP</a></li>
+			<li><a href="" class="first"><i class="icon-folder-close"></i> Input SK Tunggal</a></li>
+			<li><a href=""><i class="icon-folder-close"></i> Proses SK Tunggal</a></li>
+			<li><a href=""><i class="icon-folder-close"></i> Input SK Kolektif</a></li>
+			<li><a href=""><i class="icon-folder-close"></i> Proses SK Kolektif</a></li>
 			<!-- <li><a href=""><i class="icon-folder-close"></i> Sub Menu 4</a></li> -->
 
 		</ul>
@@ -72,7 +87,12 @@
 
 	<div id="mainbar">
 		<div id="inner">
-			<h3>Lorem Ipsum Dolor Sit Amet</h3>
+			<h3>Parameter Keluaran</h3>
+
+			<style type="text/css">
+			
+			</style>
+			
 		</div>
 	</div> <!-- div#content -->
 	<div class="clear"></div>
@@ -81,7 +101,7 @@
 
 <div id="footer">
 <!-- asdas -->
-<span>Copyright &copy; 2013. Cendana Teknika Utama</span>
+<span>Copyright &copy; 2013. <b>Cendana Teknika Utama</b></span>
 </div> <!-- div#footer -->
 
 </div> <!-- div#container -->
