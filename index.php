@@ -18,19 +18,28 @@
 			<br>
 			Riau - Rokan Hilir
 		</div>
+			<!-- <ul id="topuser" class="right">
+				<li><a href=""><i class="icon-user"></i>Admin (192.168.1.1)</a></li>
+				<li><a href=""><i class="icon-off"></i>Logout</a></li>
+			</ul> -->
 			<ul id="topmenu" class="right">
-				<li><a href=""><i class="icon-file"></i>&nbsp;&nbsp;&nbsp;File</a></li>
-				<li><a href=""><i class="icon-eye-open"></i>&nbsp;&nbsp;&nbsp;Lihat</a></li>
-				<li><a href=""><i class="icon-hdd"></i>&nbsp;&nbsp;&nbsp;Referensi</a></li>
-				<li><a href=""><i class="icon-cogs"></i>&nbsp;&nbsp;&nbsp;Kelola Informasi</a></li>
+				<li><a href=""><i class="icon-file"></i>File</a></li>
+				<li><a href=""><i class="icon-eye-open"></i>Lihat</a></li>
+				<li><a href=""><i class="icon-hdd"></i>Referensi</a></li>
+				<li><a href=""><i class="icon-cogs"></i>Kelola Informasi</a></li>
+				<li><a href="" class="active_popup"><i class="icon-user"></i>Admin</a></li>
 				<!-- <li><a href="">File</a></li> -->
 			</ul>
 
-			<ul id="topuser" class="right">
-				<li><a href=""><i class="icon-user"></i> Selamat Datang Admin ! IP Anda 192.168.1.1</a></li>
-				<li><a href=""><i class="icon-off"></i> Logout</a></li>
-				<!-- <li><a href="">File</a></li> -->
-			</ul>
+			<div id="popup">
+				<img src=""/>
+				<ul>
+					<li><a href="" class="head">Admin</a></li>
+					<li><a href=""><i class="icon-user"></i>Edit Profil</a></li>
+					<li><a href=""><i class="icon-wrench"></i>Pengaturan</a></li>
+					<li><a href=""><i class="icon-off"></i>Logout</a></li>
+				</ul>
+			</div>
 	</div>
 
 	<div id="logo">
@@ -89,9 +98,115 @@
 		<div id="inner">
 			<h3>Parameter Keluaran</h3>
 
-			<style type="text/css">
+			<span class="notif success"><i class="icon-ok"></i> Data Telah ditambahkan</span>
+			<span class="notif failure"><i class="icon-remove"></i> Data Gagal ditambahkan</span>
+			<span class="notif info"><i class="icon-info-sign"></i> Informasi Lorem Ipsum Dolor Sit Amet</span>
+
+			<div class="well">
+
+				<button class="neutral"><i class="icon-plus"></i> Neutral Button</button>
+				<button class="negative"><i class="icon-plus"></i> Negative Button</button>
+				<button class="positive right"><i class="icon-plus"></i> Positive Button</button>
+				<button class="default right"><i class="icon-plus"></i> Default Button</button>
+			</div>
 			
-			</style>
+			<div class="well">
+				<div class="head">Form Penambahan Barang</div>
+				<form>
+					<table>
+						<tr>
+							<td class="field_name">
+							<label>Field Name</label>
+							</td>
+							<td class="input">
+							<input class="medium"/>
+							</td>
+						</tr>
+						<tr>
+							<td class="field_name">
+							<label>Dropdown Name</label>
+							</td>
+							<td class="input">
+							<select>
+								<option>Select</option>
+								<option></option>
+								<option></option>
+							</select>
+							</td>
+						</tr>
+						<tr>
+							<td class="field_name">
+							<label>Field Name</label>
+							</td>
+							<td class="input">
+							<input class="medium"/>
+							</td>
+						</tr>
+
+					</table>
+
+				<button class="positive"><i class="icon-plus"></i> Positive Button</button>
+				<button class="default"><i class="icon-plus"></i> Default Button</button>
+
+				</form>
+			</div>
+
+			<table class="data">
+				<thead>
+				<tr>
+					<th>Tahun</th>
+					<th>No. Surat Keputusan</th>
+					<th>Tanggal SK</th>
+					<th>Minimal (Ribuan)</th>
+					<th>Aksi</th>
+				</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="acenter">2012</td>
+						<td class="acenter">111222/WPJ.01/KP.0103/2013</td>
+						<td class="acenter">05-JAN-13</td>
+						<td class="acenter">10.000</td>
+						<td class="acenter">
+							<a href="">
+							<img src="Pencil.png" width=20/>
+							</a>
+							<a href="">
+							<img src="Delete.png" width=20/>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="acenter">2012</td>
+						<td class="acenter">111222/WPJ.01/KP.0103/2013</td>
+						<td class="acenter">05-JAN-13</td>
+						<td class="acenter">10.000</td>
+						<td class="acenter">
+							<a href="">
+							<img src="Pencil.png" width=20/>
+							</a>
+							<a href="">
+							<img src="Delete.png" width=20/>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="acenter">2012</td>
+						<td class="acenter">111222/WPJ.01/KP.0103/2013</td>
+						<td class="acenter">05-JAN-13</td>
+						<td class="acenter">10.000</td>
+						<td class="acenter">
+							<a href="">
+							<img src="Pencil.png" width=20/>
+							</a>
+							<a href="">
+							<img src="Delete.png" width=20/>
+							</a>
+						</td>
+					</tr>
+
+				</tbody>
+			</table>
 			
 		</div>
 	</div> <!-- div#content -->
