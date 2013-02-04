@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="fort/font-awesome.css"/>
 	<link rel="stylesheet/less" type="text/css" href="style.less"/>
 	<script src="less.min.js" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 </head>
 <body>
 
@@ -27,11 +28,13 @@
 				<li><a href=""><i class="icon-eye-open"></i>Lihat</a></li>
 				<li><a href=""><i class="icon-hdd"></i>Referensi</a></li>
 				<li><a href=""><i class="icon-cogs"></i>Kelola Informasi</a></li>
-				<li><a href="" class="active_popup"><i class="icon-user"></i>Admin</a></li>
+				<li><a id="user" class=""><i class="icon-user"></i>Admin <i class="icon-caret-down"></i></a></li>
 				<!-- <li><a href="">File</a></li> -->
+
+				
 			</ul>
 
-			<div id="popup">
+			<div id="popup" style="display:none">
 				<img src=""/>
 				<ul>
 					<li><a href="" class="head">Admin</a></li>
@@ -41,6 +44,18 @@
 				</ul>
 			</div>
 	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+			$("li a#user").click(function(){
+				$('#popup').toggle();
+				$(this).toggleClass("active_popup");
+
+			});
+			
+		});
+	</script>
 
 	<div id="logo">
 		<!-- <h3 class="name"> -->
@@ -57,6 +72,7 @@
 		<li><a href=""><i class="icon-shopping-cart"></i> Pembayaran</a></li>
 		<li><a href=""><i class="icon-heart"></i> Pelayanan</a></li>
 	</ul>
+	<div class="clear"></div>
 	<!-- </h3> -->
 </div> <!-- div#header -->
 

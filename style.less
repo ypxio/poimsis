@@ -113,7 +113,7 @@
 
 	#header
 	{
-		height: 108px;
+		height: auto;
 		width: 100%;
 		background-color: @blue;
 		position: relative;
@@ -122,17 +122,20 @@
 		ul#bottom
 		{
 			// position: absolute;
-			bottom: 10;
-			right: 0;
+			// bottom: 10;
+			// right: 0;
 			float: right;
 			margin-right: 2px;
 			width: auto;
 			// background-color: black;
 			padding: 0;
+			display: block;
+			margin-bottom: 10px;
+			margin-top: -15px;
 
 			li
 			{
-				display: block;
+				display: inline;
 			    float: left;
 			    margin: 0;
 			    padding: 0;
@@ -140,16 +143,18 @@
 				a
 				{
 					border-bottom: medium none;
-    border-left: 1px solid #5FB5DF;
-    border-right: 1px solid #2484B4;
-    box-shadow: 0 -5px 4px -5px #20759E inset, 0 5px 4px -5px #75BFE3 inset;
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 15px;
-    text-decoration: none;
-    text-shadow: 0 1px 1px #185674;
-    transition: all 0.2s linear 0s;
+				    border-left: 1px solid #5FB5DF;
+				    border-right: 1px solid #2484B4;
+				    box-shadow: 0 -5px 4px -5px #20759E inset, 0 5px 4px -5px #75BFE3 inset;
+				    color: white;
+				    font-size: 12px;
+				    font-weight: bold;
+				    padding: 10px;
+				    // padding-bottom: 10px;
+				    // height: auto;
+				    text-decoration: none;
+				    text-shadow: 0 1px 1px #185674;
+				    transition: all 0.2s linear 0s;
 					
 				}
 
@@ -186,8 +191,8 @@
 				// background-color: blue;
 				display: inline;
 				color: #fff;
-				position: absolute;
-				top: 4;
+				// position: absolute;
+				top: 0;
 				margin-left: 5px;
 				font-weight: bold;
 				// margin-top: 100px;
@@ -216,7 +221,7 @@
 				width: 200;
 				background-color: white;
 				position: absolute;
-				right: 20px;
+				right: 25px;
 				top: 46px;
 				box-shadow: 0px 2px 2px #ccc;
 				// border: 1px solid #ddd;
@@ -370,6 +375,16 @@
 								color: @blue_15;
 								text-shadow: none;
 								z-index: 999;
+
+								// &:hover
+								// {
+								// 	cursor: pointer;
+								// }
+							}
+							&#user:hover
+							{
+								cursor: pointer;
+
 							}
 							
 
@@ -422,7 +437,7 @@
 					color: #444;
 					font-weight: bold;
 					font-size: 11px;
-					padding: 10px;
+					padding: 5px 10px 5px 10px;
 					border-bottom: 1px solid #eee;
 
 					-moz-transition: all 0.2s linear;
@@ -442,6 +457,15 @@
 					  right: -2;
 					  position: absolute;
 					}
+
+					i
+					{
+						position: absolute;
+						left: 10;
+					}
+
+					padding-left: 30px;
+					line-height: 20px
 				}
 
 				a.first
@@ -545,7 +569,7 @@
 				font-size: 14px;
 				color: #444;
 				border-top: 1px solid #ddd;
-				border-bottom: 1px dashed #ddd;
+				border-bottom: 1px solid #ddd;
 				// display: block;
 				width: 100%;
 				font-weight: bold;
@@ -578,6 +602,7 @@
 						padding: 5px;
 						vertical-align: middle;
 						height: 40px;
+						font-size: 12px;
 					}
 				}
 			}
@@ -709,6 +734,7 @@
 			label
 			{
 				color: #444;
+				font-size: 12px;
 			}
 
 			input, select
