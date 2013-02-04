@@ -118,16 +118,22 @@
 			<span class="notif failure"><i class="icon-remove"></i> Data Gagal ditambahkan</span>
 			<span class="notif info"><i class="icon-info-sign"></i> Informasi Lorem Ipsum Dolor Sit Amet</span>
 
+			<h4>Sub Title</h4>
+			
 			<div class="well">
 
 				<button class="neutral"><i class="icon-plus"></i> Neutral Button</button>
 				<button class="negative"><i class="icon-plus"></i> Negative Button</button>
-				<button class="positive right"><i class="icon-plus"></i> Positive Button</button>
-				<button class="default right"><i class="icon-plus"></i> Default Button</button>
+
+				<span class="right">
+				<button class="positive"><i class="icon-plus"></i> Positive Button</button>
+				<button class="default"><i class="icon-plus"></i> Default Button</button>
+				</span>
+			
 			</div>
 			
 			<div class="well">
-				<div class="head">Form Penambahan Barang</div>
+				<h3>Form Penambahan Barang</h3>
 				<form>
 					<table>
 						<tr>
@@ -166,6 +172,75 @@
 				<button class="default"><i class="icon-plus"></i> Default Button</button>
 
 				</form>
+			</div>
+
+			<div class="well well-tab">
+				<div class="tab">
+					<a class="first" href="">Tab Title</a>
+					<a class="active" href="">Tab Title</a>
+					<a href="">Tab Title</a>
+					<a href="">Tab Title</a>
+				</div>
+				<h3>Judul</h3>
+				<table class="data">
+
+				<thead>
+				<tr>
+					<th>Tahun</th>
+					<th>No. Surat Keputusan</th>
+					<th>Tanggal SK</th>
+					<th>Minimal (Ribuan)</th>
+					<th>Aksi</th>
+				</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="acenter">2012</td>
+						<td class="acenter">111222/WPJ.01/KP.0103/2013</td>
+						<td class="acenter">05-JAN-13</td>
+						<td class="acenter">10.000</td>
+						<td class="acenter">
+							<a href="">
+							<img src="Pencil.png" width=15/>
+							</a>
+							<a href="">
+							<img src="Delete.png" width=15/>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="acenter">2012</td>
+						<td class="acenter">111222/WPJ.01/KP.0103/2013</td>
+						<td class="acenter">05-JAN-13</td>
+						<td class="acenter">10.000</td>
+						<td class="acenter">
+							<a href="">
+							<img src="Pencil.png" width=15/>
+							</a>
+							<a href="">
+							<img src="Delete.png" width=15/>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="acenter">2012</td>
+						<td class="acenter">111222/WPJ.01/KP.0103/2013</td>
+						<td class="acenter">05-JAN-13</td>
+						<td class="acenter">10.000</td>
+						<td class="acenter">
+							<a href="">
+							<img src="Pencil.png" width=15/>
+							</a>
+							<a href="">
+							<img src="Delete.png" width=15/>
+							</a>
+						</td>
+					</tr>
+
+				</tbody>
+
+			</table>
+				<!-- <div class="head">Form Penambahan Barang</div> -->
 			</div>
 
 			<table class="data">
