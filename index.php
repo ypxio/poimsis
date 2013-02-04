@@ -31,7 +31,7 @@
 				<li><a id="user" class=""><i class="icon-user"></i>Admin <i class="icon-caret-down"></i></a></li>
 				<!-- <li><a href="">File</a></li> -->
 
-				
+
 			</ul>
 
 			<div id="popup" style="display:none">
@@ -136,6 +136,7 @@
 							</td>
 							<td class="input">
 							<input class="medium"/>
+							<span class="help">Bantuan untuk form</span>
 							</td>
 						</tr>
 						<tr>
@@ -168,6 +169,7 @@
 			</div>
 
 			<table class="data">
+
 				<thead>
 				<tr>
 					<th>Tahun</th>
@@ -185,24 +187,10 @@
 						<td class="acenter">10.000</td>
 						<td class="acenter">
 							<a href="">
-							<img src="Pencil.png" width=20/>
+							<img src="Pencil.png" width=15/>
 							</a>
 							<a href="">
-							<img src="Delete.png" width=20/>
-							</a>
-						</td>
-					</tr>
-					<tr>
-						<td class="acenter">2012</td>
-						<td class="acenter">111222/WPJ.01/KP.0103/2013</td>
-						<td class="acenter">05-JAN-13</td>
-						<td class="acenter">10.000</td>
-						<td class="acenter">
-							<a href="">
-							<img src="Pencil.png" width=20/>
-							</a>
-							<a href="">
-							<img src="Delete.png" width=20/>
+							<img src="Delete.png" width=15/>
 							</a>
 						</td>
 					</tr>
@@ -213,16 +201,46 @@
 						<td class="acenter">10.000</td>
 						<td class="acenter">
 							<a href="">
-							<img src="Pencil.png" width=20/>
+							<img src="Pencil.png" width=15/>
 							</a>
 							<a href="">
-							<img src="Delete.png" width=20/>
+							<img src="Delete.png" width=15/>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="acenter">2012</td>
+						<td class="acenter">111222/WPJ.01/KP.0103/2013</td>
+						<td class="acenter">05-JAN-13</td>
+						<td class="acenter">10.000</td>
+						<td class="acenter">
+							<a href="">
+							<img src="Pencil.png" width=15/>
+							</a>
+							<a href="">
+							<img src="Delete.png" width=15/>
 							</a>
 						</td>
 					</tr>
 
 				</tbody>
+
 			</table>
+
+			<div class="well">
+			<div class="total_data left">
+				Total 1000 data
+			</div>
+			<div class="pagination right">
+				<button class="small neutral">< prev</button>
+				<button class="small neutral">2</button>
+				<button class="small default">3</button>
+				<button class="small neutral">4</button>
+				<button class="small neutral">...</button>
+				<button class="small neutral">next ></button>
+			</div>
+			<div class="clear"></div>
+			</div>
 			
 		</div>
 	</div> <!-- div#content -->

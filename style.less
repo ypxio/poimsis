@@ -525,7 +525,15 @@
 		height: 400px;
 		padding: 20px;
 
-		
+		.total_data
+		{
+			font-size: 12px;
+			font-weight: bold;
+			display: block;
+			height: auto;
+			color: #999;
+			margin-top: 5px;
+		}
 			h3
 			{
 				display: block;
@@ -562,6 +570,8 @@
 		{
 			width: 100%;
 
+			
+
 			thead
 			{
 				padding: 10px 0 10px 0;
@@ -581,6 +591,7 @@
 						padding: 10px 0 10px 0;
 					}
 				}
+
 			}
 
 			tbody
@@ -599,7 +610,7 @@
 
 					td
 					{
-						padding: 5px;
+						padding: 3px 5px;
 						vertical-align: middle;
 						height: 40px;
 						font-size: 12px;
@@ -646,14 +657,34 @@
 		}
 		button
 		{
-			padding: 8px 10px;
+			padding: 6px 8px;
 			font-weight: bold;
+			font-size: 10px;
 			// margin: 0 5px 0 5px	;
 			// border-radius: 5px;
 
 			&:hover
 			{
 				cursor: pointer;
+
+			}
+
+			&.small
+			{
+				// padding: 5px;
+				height:20px;
+				width:auto;
+				padding: 0 5px 0 5px;
+				font-size: 10px;
+				// padding: 0;
+				color: #ddd;
+			}
+
+			&.paging
+			{
+				background-color: #ddd;
+				border: none;
+				color: #888;
 			}
 
 			&.neutral
@@ -762,6 +793,23 @@
 						input
 						{
 							padding-left: 5px;
+							outline: none;
+							&:hover
+							{
+								border: 1px solid #aaa;
+							}
+							&:focus
+							{
+								border: 1px solid @blue;
+							}
+						}
+
+						.help
+						{
+							display: block;
+							color: #888;
+							padding: 5px 0 5px 0;
+							font-size: 12px;
 						}
 					}
 				}
