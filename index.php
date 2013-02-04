@@ -27,11 +27,11 @@
 				<li><a href=""><i class="icon-eye-open"></i>Lihat</a></li>
 				<li><a href=""><i class="icon-hdd"></i>Referensi</a></li>
 				<li><a href=""><i class="icon-cogs"></i>Kelola Informasi</a></li>
-				<li><a href=""><i class="icon-user"></i>Admin</a></li>
+				<li><a href="" class="active_popup"><i class="icon-user"></i>Admin</a></li>
 				<!-- <li><a href="">File</a></li> -->
 			</ul>
 
-			<!-- <div id="popup">
+			<div id="popup">
 				<img src=""/>
 				<ul>
 					<li><a href="" class="head">Admin</a></li>
@@ -39,7 +39,7 @@
 					<li><a href=""><i class="icon-wrench"></i>Pengaturan</a></li>
 					<li><a href=""><i class="icon-off"></i>Logout</a></li>
 				</ul>
-			</div> -->
+			</div>
 	</div>
 
 	<div id="logo">
