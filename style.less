@@ -113,7 +113,7 @@
 
 	#header
 	{
-		height: 111px;
+		height: 108px;
 		width: 100%;
 		background-color: @blue;
 		position: relative;
@@ -122,7 +122,7 @@
 		ul#bottom
 		{
 			// position: absolute;
-			bottom: 12;
+			bottom: 10;
 			right: 0;
 			float: right;
 			margin-right: 2px;
@@ -132,30 +132,24 @@
 
 			li
 			{
-				display: inline;
-				padding: 0;
-				margin: 0;
+				display: block;
+			    float: left;
+			    margin: 0;
+			    padding: 0;
 
 				a
 				{
-					text-decoration: none;
-					font-size: 12px;
-					padding: 15px 15px 15px 15px;
-					// border: 1px solid @blue;
-					color: @blue_10;
-					border-bottom: none;
-					font-weight: bold;
-					border-right: 1px solid @blue_10;
-					border-left: 1px solid @blue_10_r;
-					margin: -2;
-					color: white;
-					text-shadow: 0px 1px 1px @blue_25;
-					-moz-transition: all 0.2s linear;
-					-webkit-transition: all 0.2s linear;
-					-o-transition: all 0.2s linear;
-					transition: all 0.2s linear;
-					// font-family: entypo;
-					box-shadow: inset 0 -5px 4px -5px @blue_15, inset 0 5px 4px -5px @blue_15_r;
+					border-bottom: medium none;
+    border-left: 1px solid #5FB5DF;
+    border-right: 1px solid #2484B4;
+    box-shadow: 0 -5px 4px -5px #20759E inset, 0 5px 4px -5px #75BFE3 inset;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #185674;
+    transition: all 0.2s linear 0s;
 					
 				}
 
@@ -642,14 +636,16 @@
 				border: 1px solid @gray_15_r;
 				background-color: @gray;
 				color: white;
-				box-shadow: inset 0px -15px 0px -1px @gray_10, 0px 0px 0px 1px @gray_10;
+				// box-shadow: inset 0px -15px 0px -1px @gray_10, 0px 0px 0px 1px @gray_10;
+				box-shadow: 0px 0px 0px 1px @gray_10;
 
 				&:hover
 				{
 					
 					border: 1px solid @gray_5;
 					background-color: @gray_15;
-					box-shadow: inset 0px -15px 0px -1px @gray_15, 0px 0px 0px 1px @gray_25;
+					// box-shadow: inset 0px -15px 0px -1px @gray_15, 0px 0px 0px 1px @gray_25;
+					box-shadow: 0px 0px 0px 1px @gray_25;
 				}
 			}
 
@@ -658,14 +654,16 @@
 				border: 1px solid @green_15_r;
 				background-color: @green;
 				color: white;
-				box-shadow: inset 0px -15px 0px -1px @green_10, 0px 0px 0px 1px @green_10;
+				// box-shadow: inset 0px -15px 0px -1px @green_10, 0px 0px 0px 1px @green_10;
+				box-shadow: 0px 0px 0px 1px @green_10;
 
 				&:hover
 				{
 					
 					border: 1px solid @green_5;
 					background-color: @green_15;
-					box-shadow: inset 0px -15px 0px -1px @green_15, 0px 0px 0px 1px @green_25;
+					// box-shadow: inset 0px -15px 0px -1px @green_15, 0px 0px 0px 1px @green_25;
+					box-shadow: 0px 0px 0px 1px @green_25;
 				}
 			}
 
@@ -674,14 +672,16 @@
 				border: 1px solid @red_15_r;
 				background-color: @red;
 				color: white;
-				box-shadow: inset 0px -15px 0px -1px @red_10, 0px 0px 0px 1px @red_10;
+				// box-shadow: inset 0px -15px 0px -1px @red_10, 0px 0px 0px 1px @red_10;
+				box-shadow: 0px 0px 0px 1px @red_10;
 
 				&:hover
 				{
 					
 					border: 1px solid @red_5;
 					background-color: @red_15;
-					box-shadow: inset 0px -15px 0px -1px @red_15, 0px 0px 0px 1px @red_25;
+					// box-shadow: inset 0px -15px 0px -1px @red_15, 0px 0px 0px 1px @red_25;
+					box-shadow: 0px 0px 0px 1px @red_25;
 				}
 			}
 
@@ -690,14 +690,16 @@
 				border: 1px solid @blue_15_r;
 				background-color: @blue;
 				color: white;
-				box-shadow: inset 0px -15px 0px -1px @blue_10, 0px 0px 0px 1px @blue_10;
+				// box-shadow: inset 0px -15px 0px -1px @blue_10, 0px 0px 0px 1px @blue_10;
+				box-shadow: 0px 0px 0px 1px @blue_10;
 
 				&:hover
 				{
 					
 					border: 1px solid @blue_5;
 					background-color: @blue_15;
-					box-shadow: inset 0px -15px 0px -1px @blue_15, 0px 0px 0px 1px @blue_25;
+					// box-shadow: inset 0px -15px 0px -1px @blue_15, 0px 0px 0px 1px @blue_25;
+					box-shadow: 0px 0px 0px 1px @blue_25;
 				}
 			}
 		}
