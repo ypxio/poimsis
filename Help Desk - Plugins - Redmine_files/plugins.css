@@ -1,0 +1,23 @@
+table.plugins {width: 100%;}
+tr.plugin td.thumbnail { vertical-align:top; margin-top: 1em; width: 102px;}
+tr.plugin td.description { padding: 0 1em 1em 2em;}
+tr.plugin td.description h1, tr.plugin td.description h2, tr.plugin td.description h3 { font-size:14px; margin-bottom:0;}
+tr.plugin p.name { margin-bottom: 0.6em;}
+tr.plugin td.author {width: 30%; text-align:center;}
+
+.plugin table.info {width: 100%;}
+.plugin table.info th {width: 25%; padding-left: 40px; text-align:left; color: #aaa; font-weight: normal; white-space: nowrap;}
+
+table.plugins a.plugin {font-size: 1.2em; font-weight: bold;}
+table.plugins a.plugin, #sidebar h3.releases, #sidebar h3.plugins { background-image: url(../../../images/plugin.png); background-position: 0% 40%; background-repeat: no-repeat; padding-left: 20px;}
+#sidebar h3.releases { background-image: url(../../../images/package.png); }
+
+img.plugin_thumbnail {border: 2px solid #ddd; padding: 2px;}
+
+dt.plugin { background-image: url(../../../images/plugin.png); }
+
+div.no_thumbnail { 
+	width: 108px;
+	height: 108px;
+	background: #e9e9e9;
+}
