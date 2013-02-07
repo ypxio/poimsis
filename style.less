@@ -103,6 +103,22 @@
 		text-decoration: none;
 	}
 
+	.tooltip
+	{
+	    display:none;
+	    /*visibility: hidden;*/
+
+	    font-size:10px;
+	    height:auto;
+	    width:auto;
+	    padding:3px 5px 3px 5px;
+	    color:#fff;
+	    background-color: #000;
+	    border: 1px solid #000;
+	    border-radius: 3px;
+
+  	}
+
 	#container
 	{
 		height: auto;
@@ -412,7 +428,7 @@
 		// left: 0;
 		float: left;
 		height: auto;
-		border-right: 1px solid #ddd;
+		/*border-right: 1px solid #ddd;*/
 		// box-shadow
 		// background-color: green;
 		
@@ -517,6 +533,7 @@
 		// background-color: grey;
 		width: 75%;
 		display: block;
+		border-left: 1px solid #ddd;
 	}
 
 	#inner
@@ -618,6 +635,7 @@
 						border-right: 1px solid #ddd;
 						color: @gray_15;
 						background-color: #eee;
+						font-size: 12px;
 						// background-color: @gray_5_r;
 						// background-color: blue;
 						
@@ -657,7 +675,7 @@
 			{
 				padding: 10px 0 10px 0;
 				background-color: #efefef;
-				font-size: 14px;
+				font-size: 13px;
 				color: #444;
 				border-top: 1px solid #ddd;
 				border-bottom: 1px solid #ddd;
@@ -743,7 +761,17 @@
 			}
 		}
 		
-		button
+		a.button
+		{
+			padding: 8 10;
+		}
+
+		input[type="submit"].button
+		{
+			padding: 6 10 7 10;
+		}
+
+		button, .button
 		{
 			padding: 6px 8px;
 			font-weight: bold;
@@ -763,7 +791,7 @@
 				// padding: 5px;
 				height:20px;
 				width:auto;
-				padding: 0 5px 0 5px;
+				padding: 0 5px 3px 5px;
 				font-size: 10px;
 				// padding: 0;
 				color: #ddd;
@@ -864,12 +892,17 @@
 				font-size: 12px;
 			}
 
-			input, select
+			input[type="text"], select
 			{
 				border: 1px solid #ccc;
 				height: 25px;
 				background-color: white;
 				width: 300px;
+			}
+
+			input[type="checkbox"]
+			{
+				height: normal;
 			}
 
 			table
@@ -890,6 +923,7 @@
 						{
 							padding-left: 5px;
 							outline: none;
+
 							&:hover
 							{
 								border: 1px solid #aaa;
@@ -951,4 +985,63 @@
 	// 	background-color: black;
 	// 	height: 130px;
 	// }
+	
+	#login
+	{
+		padding: 0;
+		#inner
+		{
+			margin: 0 auto;
+			width: 30%;
+			position: relative;
+			margin-top: 150px;
+			padding: 10px;
+
+
+			.well
+			{
+				width: 100%;
+				box-shadow: 0px 0px 15px 5px #dedede;
+			}
+			img
+			{
+				position: absolute;
+				left: 10;
+				width: 30;
+			}
+			.field_name
+			{
+				width: 100px;
+			}
+
+			.subtitle
+			{
+				display: block;
+				font-size: 12px;
+				margin: 8px 0 8px 0;
+				font-weight: normal
+			}
+
+			h4
+			{
+				padding-left: 40px;
+				border-bottom: none;
+				font-size: 18px;
+				font-weight: bold;
+				/*padding: 0;*/
+				/*padding-right: 0px;*/
+				/*width: 100%;*/
+			}
+
+			.copyright
+			{
+				font-size: 12px;
+				color: #aaa;
+				padding-right: 0px;
+				width: 400px;
+				display: block;
+				padding: 10px;
+			}
+		}
+	}
 

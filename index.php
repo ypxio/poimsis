@@ -2,10 +2,21 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="reset.css"/>
+	<link rel="stylesheet" type="text/css" href="reveal.css"/>
 	<link rel="stylesheet" type="text/css" href="fort/font-awesome.css"/>
 	<link rel="stylesheet/less" type="text/css" href="style.less"/>
 	<script src="less.min.js" type="text/javascript"></script>
+	<script src="jquery.js" type="text/javascript"></script>
+	<script src="jquery.reveal.js" type="text/javascript"></script>
+	<script src="jquery.tools.js" type="text/javascript"></script>
+	<!--
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+-->
+	<script type="text/javascript">
+	// $(document).ready(function(){
+	// 	$(".edit").tooltip();
+	// });
+	</script>
 </head>
 <body>
 
@@ -40,14 +51,16 @@
 					<li><a href="" class="head">Admin</a></li>
 					<li><a href=""><i class="icon-user"></i>Edit Profil</a></li>
 					<li><a href=""><i class="icon-wrench"></i>Pengaturan</a></li>
-					<li><a href=""><i class="icon-off"></i>Logout</a></li>
+					<li><a href="login.php"><i class="icon-off"></i>Logout</a></li>
 				</ul>
 			</div>
 	</div>
 
 	<script type="text/javascript">
 		$(document).ready(function(){
-
+			$(".action a[title]").tooltip({
+				fade: 250 
+			});
 			$("li a#user").click(function(){
 				$('#popup').toggle();
 				$(this).toggleClass("active_popup");
@@ -110,6 +123,8 @@
 		</ul>
 	</div> <!-- div#sidebar -->
 
+	
+
 	<div id="mainbar">
 		<div id="inner">
 			<h3>Parameter Keluaran</h3>
@@ -122,7 +137,17 @@
 			
 			<div class="well">
 
-				<button class="neutral"><i class="icon-plus"></i> Neutral Button</button>
+				<div id="myModal" class="reveal-modal">
+				<h3>Modal Title</h3>
+				<p>
+					lorem ipsum
+				</p>
+				<a class="close-reveal-modal">&#215;</a>
+				</div>
+
+				<a class="button neutral" data-reveal-id="myModal" data-animation="fade">Launch a modal</a>
+				<a class="button neutral"><i class="icon-plus"></i> Anchor a Button</a>
+				<button type="submit" class="button neutral"><i class="icon-plus"></i> Neutral Button</button>
 				<button class="negative"><i class="icon-plus"></i> Negative Button</button>
 
 				<span class="right">
@@ -141,7 +166,7 @@
 							<label>Field Name</label>
 							</td>
 							<td class="input">
-							<input class="medium"/>
+							<input class="medium" type="text"/>
 							<span class="help">Bantuan untuk form</span>
 							</td>
 						</tr>
@@ -162,7 +187,7 @@
 							<label>Field Name</label>
 							</td>
 							<td class="input">
-							<input class="medium"/>
+							<input class="medium" type="text"/>
 							</td>
 						</tr>
 
@@ -199,11 +224,11 @@
 						<td class="acenter">111222/WPJ.01/KP.0103/2013</td>
 						<td class="acenter">05-JAN-13</td>
 						<td class="acenter">10.000</td>
-						<td class="acenter">
-							<a href="">
+						<td class="acenter action">
+							<a href="" title="edit">
 							<img src="Pencil.png" width=15/>
 							</a>
-							<a href="">
+							<a href="" title="delete">
 							<img src="Delete.png" width=15/>
 							</a>
 						</td>
@@ -213,11 +238,11 @@
 						<td class="acenter">111222/WPJ.01/KP.0103/2013</td>
 						<td class="acenter">05-JAN-13</td>
 						<td class="acenter">10.000</td>
-						<td class="acenter">
-							<a href="">
+						<td class="acenter action">
+							<a href="" title="edit">
 							<img src="Pencil.png" width=15/>
 							</a>
-							<a href="">
+							<a href="" title="delete">
 							<img src="Delete.png" width=15/>
 							</a>
 						</td>
@@ -227,11 +252,11 @@
 						<td class="acenter">111222/WPJ.01/KP.0103/2013</td>
 						<td class="acenter">05-JAN-13</td>
 						<td class="acenter">10.000</td>
-						<td class="acenter">
-							<a href="">
+						<td class="acenter action">
+							<a href="" title="edit">
 							<img src="Pencil.png" width=15/>
 							</a>
-							<a href="">
+							<a href="" title="delete">
 							<img src="Delete.png" width=15/>
 							</a>
 						</td>
@@ -260,11 +285,11 @@
 						<td class="acenter">111222/WPJ.01/KP.0103/2013</td>
 						<td class="acenter">05-JAN-13</td>
 						<td class="acenter">10.000</td>
-						<td class="acenter">
-							<a href="">
+						<td class="acenter action">
+							<a href="" title="edit">
 							<img src="Pencil.png" width=15/>
 							</a>
-							<a href="">
+							<a href="" title="delete">
 							<img src="Delete.png" width=15/>
 							</a>
 						</td>
@@ -274,11 +299,11 @@
 						<td class="acenter">111222/WPJ.01/KP.0103/2013</td>
 						<td class="acenter">05-JAN-13</td>
 						<td class="acenter">10.000</td>
-						<td class="acenter">
-							<a href="">
+						<td class="acenter action">
+							<a href="" title="edit">
 							<img src="Pencil.png" width=15/>
 							</a>
-							<a href="">
+							<a href="" title="delete">
 							<img src="Delete.png" width=15/>
 							</a>
 						</td>
@@ -288,11 +313,11 @@
 						<td class="acenter">111222/WPJ.01/KP.0103/2013</td>
 						<td class="acenter">05-JAN-13</td>
 						<td class="acenter">10.000</td>
-						<td class="acenter">
-							<a href="">
+						<td class="acenter action">
+							<a href="" title="edit">
 							<img src="Pencil.png" width=15/>
 							</a>
-							<a href="">
+							<a href="" title="delete">
 							<img src="Delete.png" width=15/>
 							</a>
 						</td>
