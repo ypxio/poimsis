@@ -38,7 +38,7 @@
 				<tr>
 					<td class="field_name"></td>
 					<td class="input aleft">
-						<button class="default"><i class="icon-unlock"></i> Login</button>
+						<button class="default">Login</button>
 						&nbsp;
 						<input type="checkbox"/> <label>Remember Me</label>
 					</td>
@@ -46,7 +46,7 @@
 			</table>
 		</form>
 		</div>
-		<div class="copyright acenter">&copy; 2013. Cendana Teknika Utama</div>
+		<div class="copyright acenter">Copyright &copy; 2013. Cendana Teknika Utama</div>
 	</div>
 </div>
 
